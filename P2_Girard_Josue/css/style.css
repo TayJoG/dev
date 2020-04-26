@@ -9,8 +9,8 @@ CSS organisation en boite
 #bloc-page {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
 	border: 3px solid black;
 }
 
@@ -18,16 +18,17 @@ CSS organisation en boite
 .bloc-fixe {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: auto;
 	background: rgb(247, 181, 2);
-	height: 150px;
+	min-height: 150px;
+	height: auto;
 }
 
 /*conteneur de la page*/
 .bloc-fixe-2 {
 	display: flex;
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
 }
 
 .reseaux {
@@ -37,7 +38,8 @@ CSS organisation en boite
 
 .banderole {
 	background: red;	
-	height: 100px;
+	min-height: 100px;
+	align-items: center;
 }
 
 /*section de la page*/
@@ -46,35 +48,51 @@ CSS organisation en boite
 	flex-direction: column;
 }
 
+article {
+	width: auto;
+	height: auto;
+}
+
+section {
+	width: auto;
+	height: auto;
+	margin: auto;
+	background-color: green;
+}
 /*****************************************
 CSS
 ******************************************/
 .logo {
-	margin: 25px 0 0 25px;
-	
+	display: flex;
+	flex-direction: row;
+	margin: 20px 20px 0 20px;
 }
 
 img {
-	width: 100px;
-	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
 	border-radius: 100%;
 }
-
-p {
-	margin: auto;
+h1, h2 {
+	width: auto;
+	height: auto;
+	margin: 10px;
+	background-color: tomato;
 }
-.logo p {
-	display: flex;
-	flex-direction: row;
-	margin-left: 100px;
-	margin-top: -100px;
+p, h5{
+	background-color: brown;
+	margin: 20px;
+}
+ul {
+	width: auto;
+	height: auto;
+	padding: 0;
 }
 ul li {
+	width: 25%;
+	height: auto;
+	margin: 0 20px 0 20px;
 	list-style: none;
+	background-color: yellow;
 }
 
-
-
-section {
-	background-color: green;
-}
