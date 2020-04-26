@@ -1,6 +1,10 @@
 body {
-	background: url("background.png") fixed no-repeat #cecece;
+	background: #cecece;
 	font-family: arial;
+	font-size: 1em;
+	font-style: oblique;
+	text-align: justify;
+	margin: 20px 20px 20px 20px;
 }
 
 /******************************************
@@ -10,8 +14,11 @@ CSS organisation en boite
 	display: flex;
 	flex-direction: column;
 	width: auto;
+	max-width: 966px;
 	height: auto;
+	margin: auto;
 	border: 3px solid black;
+	color: teal;
 }
 
 /*EnTete de la page*/
@@ -19,7 +26,8 @@ CSS organisation en boite
 	display: flex;
 	flex-direction: column;
 	width: auto;
-	background: rgb(247, 181, 2);
+	background: #E6E6E6;
+	color: #F8971D;
 	min-height: 150px;
 	height: auto;
 }
@@ -32,12 +40,13 @@ CSS organisation en boite
 }
 
 .reseaux {
-	background-color: blue;
+	background-color: rgb(72, 182, 167);
 	width: 25%;
+	color: #E6E6E6;
 }
 
 .banderole {
-	background: red;	
+	background: #F8971D;
 	min-height: 100px;
 	align-items: center;
 }
@@ -46,6 +55,7 @@ CSS organisation en boite
 .banderole , .section {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 article {
@@ -57,7 +67,7 @@ section {
 	width: auto;
 	height: auto;
 	margin: auto;
-	background-color: green;
+	background-color: #E6E6E6;
 }
 /*****************************************
 CSS
@@ -71,16 +81,23 @@ CSS
 img {
 	max-width: 100px;
 	max-height: 100px;
-	border-radius: 100%;
+	border-radius: 50%;
 }
-h1, h2 {
+h1 {
 	width: auto;
 	height: auto;
-	margin: 10px;
-	background-color: tomato;
+	color: #E6E6E6;
+	background-color: none;
+	font-size: 2.5em;
+}
+h2 {
+	width: auto;
+	height: auto;
+	color: #E6E6E6;
+	margin: 0;
+	background-color: rgb(72, 182, 167);
 }
 p, h5{
-	background-color: brown;
 	margin: 20px;
 }
 ul {
@@ -93,6 +110,5 @@ ul li {
 	height: auto;
 	margin: 0 20px 0 20px;
 	list-style: none;
-	background-color: yellow;
 }
 
