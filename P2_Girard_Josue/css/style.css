@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1200px) {
+
 body {
 	background: #F1F2F3;
 	font-family: arial;
@@ -14,7 +16,7 @@ CSS Box Organisation
 	display: flex;
 	flex-direction: column;
 	width: auto;
-	max-width: 1200px;
+	min-width: 1200px;
 	height: auto;
 	margin: auto;
 	border: 1px solid #E1E2E3;
@@ -118,7 +120,11 @@ h2 {
 	color: #FAFBFC;
 	background-color: rgb(72, 182, 167);
 }
-
+h2 img {
+	width: auto;
+	height: auto;
+	margin: 10px;
+}
 h5{
 	margin: 20px;
 }
@@ -143,4 +149,4 @@ li p {
 	margin: 0;
 }
 
-
+}
