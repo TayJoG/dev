@@ -1,0 +1,152 @@
+@media only screen and (min-width: 1200px) {
+
+body {
+	background: #F1F2F3;
+	font-family: arial;
+	font-size: 1em;
+	font-style: oblique;
+	margin: 20px;
+}
+
+
+/******************************************
+CSS Box Organisation
+*******************************************/
+#bloc-page {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	min-width: 1200px;
+	height: auto;
+	margin: auto;
+	border: 1px solid #E1E2E3;
+	color: teal;
+}
+
+/*EnTete de la page*/
+.bloc-fixe {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: auto;
+	min-height: 150px;
+	background: #FAFBFC;
+	color: #F8971D;
+}
+
+/*conteneur de la page*/
+.bloc-fixe-2 {
+	display: flex;
+	width: auto;
+	height: auto;
+}
+.bloc-section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.reseaux {
+	background-color: rgb(72, 182, 167);
+	width: auto;
+	color: #FAFBFC;
+}
+
+.banderole {
+	background: #F8971D;
+	min-height: 100px;
+	text-align: center;
+}
+
+/*section de la page*/
+.banderole , .section {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+
+article {
+	width: auto;
+	height: auto;
+}
+
+section , aside {
+	width: auto;
+	height: auto;
+	background-color: #FAFBFC;
+}
+
+
+/*****************************************
+CSS Header
+******************************************/
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.logo img {
+	width: 125px;
+	height: 125px;
+	margin: 20px;
+}
+
+
+/*****************************************
+CSS Nav Banderole Section
+******************************************/
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+h1 {
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #FAFBFC;
+}
+
+h2 {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding:0 20px 0 20px;
+	color: #FAFBFC;
+	background-color: rgb(72, 182, 167);
+}
+h2 img {
+	width: auto;
+	height: auto;
+	margin: 10px;
+}
+h5{
+	margin: 20px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px;
+}
+
+ul {
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+ul li {
+	margin: 0 20px 0 20px;
+	list-style: none;
+}
+
+li p {
+	margin: 0;
+}
+
+}
