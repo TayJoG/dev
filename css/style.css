@@ -1,0 +1,113 @@
+/****************************************
+CSS LARGE SCREEN
+****************************************/
+
+
+@media only screen and (min-width: 1200px) {
+
+body {
+    background: #F1F2F3;
+    font-family: arial;
+    font-size: 1em;
+    margin: 20px;
+    color: #404040;
+}
+
+
+/****************************************
+CSS COLOR TEXT
+****************************************/
+
+
+.bloc-fixe {
+    background: #FECA07;
+}
+
+.bloc-fixe h3 {
+    background: #404040;
+    color: #FECA07;
+    text-align: center;
+    padding: 5px;
+}
+
+.bloc-content {
+    background: #cecece;
+}
+
+.bloc-section {
+    background: red;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.photo {
+    width: auto;
+}
+.photo img {
+	width: 125px;
+	height: 125px;
+    border-radius: 50%;
+    border: 3px solid #DAAF12;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    width: 3em;
+    margin: 20px;
+}
+
+img {
+    width: 1em;
+}
+/****************************************
+CSS STRUCTURE PAGE
+****************************************/
+
+
+.bloc-page {
+    display: flex;
+    width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.bloc-fixe , nav {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.bloc-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.bloc-section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+/****************************************
+CSS STRUCTURE PAGE
+****************************************/
+
