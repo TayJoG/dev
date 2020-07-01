@@ -9,6 +9,7 @@ body {
     background: #F1F2F3;
     font-family: arial;
     font-size: 1em;
+    width: auto;
     margin: 20px;
     color: #404040;
 }
@@ -28,40 +29,44 @@ CSS COLOR TEXT
     color: #FECA07;
     text-align: center;
     padding: 5px;
+    margin: 0;
 }
 
-.bloc-content {
-    background: #cecece;
-}
-
-.bloc-section {
-    background: red;
-}
-
-h3 {
+h1 {
+    width: auto;
+    margin: 20px;
     color: black;
+}
+h1 span {
+    color: #FECA07;
+}
+.bloc-content h3 {
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #FECA07;
 }
 
 p {
     margin: 20px;
     text-align: justify;
 }
+p span{
+    border-bottom: 1px solid #FECA07;
+}
 ul {
     list-style: none;
     padding: 0;
 }
 
-.photo {
-    width: auto;
-}
 .photo img {
-	width: 125px;
-	height: 125px;
+	width: 150px;
+	height: 150px;
     border-radius: 50%;
     border: 3px solid #DAAF12;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
 }
 
@@ -77,6 +82,15 @@ ul {
 img {
     width: 1em;
 }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+}
+.title h1 , .title p {
+    margin: 0;
+}
 /****************************************
 CSS STRUCTURE PAGE
 ****************************************/
@@ -85,8 +99,10 @@ CSS STRUCTURE PAGE
 .bloc-page {
     display: flex;
     width: auto;
+	min-width: 1200px;
 	height: auto;
-	margin: auto;
+    margin: auto;
+    border: 1px solid #404040;
 }
 
 .bloc-fixe , nav {
@@ -94,18 +110,44 @@ CSS STRUCTURE PAGE
     flex-direction: column;
     width: 300px;
 }
+
+.photo {
+    width: auto;
+    height: 250px;
+}
+
+.contact {
+    width: auto;
+    height: 300px;
+}
+
+.ap2m{
+    width: auto;
+    min-height: 600px;
+}
+
+.loisir {
+    width: auto;
+}
 .bloc-content {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
 }
 
 .bloc-section {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
 }
 
+header {
+    width: 100%;
+    height: 250px;
+}
+section {
+    width: 100%;
+}
 
 /****************************************
 CSS STRUCTURE PAGE
