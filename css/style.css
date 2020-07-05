@@ -3,13 +3,12 @@ CSS LARGE SCREEN
 ****************************************/
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
 
 body {
     background: #F1F2F3;
-    font-family: arial;
+    font-family: Arial, Verdana, sans-serif, Impact;
     font-size: 1em;
-    width: auto;
     margin: 20px;
     color: #404040;
 }
@@ -37,9 +36,16 @@ h1 {
     margin: 20px;
     color: black;
 }
+
 h1 span {
     color: #FECA07;
 }
+
+h4 , h5 {
+    width: auto;
+    height: auto;
+}
+
 .bloc-content h3 {
     color: black;
     margin: 20px;
@@ -47,13 +53,18 @@ h1 span {
     border-bottom: 1px solid #FECA07;
 }
 
-p {
+p , table {
     margin: 20px;
     text-align: justify;
 }
 p span{
     border-bottom: 1px solid #FECA07;
 }
+
+.section table tr td {
+    width: 50%;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -91,6 +102,9 @@ img {
 .title h1 , .title p {
     margin: 0;
 }
+
+
+
 /****************************************
 CSS STRUCTURE PAGE
 ****************************************/
@@ -99,7 +113,8 @@ CSS STRUCTURE PAGE
 .bloc-page {
     display: flex;
     width: auto;
-	min-width: 1200px;
+    min-width: 1200px;
+    max-width: 1500px;
 	height: auto;
     margin: auto;
     border: 1px solid #404040;
@@ -123,11 +138,13 @@ CSS STRUCTURE PAGE
 
 .ap2m{
     width: auto;
-    min-height: 600px;
+    height:auto;
+    min-height: 800px;
 }
 
 .loisir {
     width: auto;
+    height: auto;
 }
 .bloc-content {
     display: flex;
@@ -148,6 +165,7 @@ header {
 section {
     width: 100%;
 }
+
 
 /****************************************
 CSS STRUCTURE PAGE
