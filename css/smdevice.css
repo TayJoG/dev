@@ -1,0 +1,162 @@
+/****************************************
+CSS LARGE SCREEN
+****************************************/
+
+
+@media only screen and (max-width: 576px) {
+
+    body {
+        background: #F1F2F3;
+        font-family: Arial, Verdana, sans-serif, Impact;
+        font-size: 1em;
+        margin: 20px;
+        color: #404040;
+    }
+    
+    
+    /****************************************
+    CSS COLOR TEXT
+    ****************************************/
+    
+    
+    .bloc-fixe {
+        background: #FECA07;
+    }
+    
+    .bloc-fixe h3 {
+        background: #404040;
+        color: #FECA07;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+    
+    h1 {
+        width: auto;
+        margin: 20px;
+        color: black;
+    }
+    h1 span {
+        color: #FECA07;
+    }
+
+    
+    h4 , h5 {
+        width: auto;
+        height: auto;
+    }
+
+    .bloc-content h3 {
+        color: black;
+        margin: 20px;
+        padding: 10px;
+        border-bottom: 1px solid #FECA07;
+    }
+    
+    p , table {
+        margin: 20px;
+        text-align: justify;
+    }
+
+    p span{
+        border-bottom: 1px solid #FECA07;
+    }
+   
+    table tr td {
+        width: 50%;
+}
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .photo img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #DAAF12;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    .img img {
+        width: 3em;
+        margin: 20px;
+    }
+    
+    img {
+        width: 1em;
+    }
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 50px;
+    }
+    .title h1 , .title p {
+        margin: 0;
+    }
+
+    
+    /****************************************
+    CSS STRUCTURE PAGE
+    ****************************************/
+    
+    
+    .bloc-page {
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: 1px solid #404040;
+    }
+    
+    .bloc-fixe , nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .photo {
+        width: auto;
+        height: 250px;
+    }
+    
+    .contact {
+        width: auto;
+    }
+    
+    .ap2m{
+        width: auto;
+        height:auto;
+    }
+    
+    .loisir {
+        width: auto;
+        height: auto;
+    }
+    .bloc-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .bloc-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+
+}
+    
