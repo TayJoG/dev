@@ -105,8 +105,22 @@ img {
 	margin: 20px;
 }
 
+<<<<<<< HEAD
 h1 {
 	width: auto;
+=======
+
+
+/****************************************
+CSS STRUCTURE PAGE
+****************************************/
+
+
+.bloc-page {
+    display: flex;
+    width: auto;
+    max-width: 1500px;
+>>>>>>> 41e2be3... correction responsiveDesign
 	height: auto;
 	margin: auto;
 	color: #FAFBFC;
@@ -120,6 +134,7 @@ h2 {
 	color: #FAFBFC;
 	background-color: rgb(72, 182, 167);
 }
+<<<<<<< HEAD
 h2 img {
 	width: auto;
 	height: auto;
@@ -132,6 +147,22 @@ h5{
 p {
 	text-align: justify;
 	margin: 20px;
+=======
+
+.photo {
+    width: auto;
+    height: auto;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+}
+
+.ap2m{
+    width: auto;
+    height:auto;
+>>>>>>> 41e2be3... correction responsiveDesign
 }
 
 ul {
@@ -145,8 +176,18 @@ ul li {
 	list-style: none;
 }
 
+<<<<<<< HEAD
 li p {
 	margin: 0;
+=======
+header {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+>>>>>>> 41e2be3... correction responsiveDesign
 }
 
 }
