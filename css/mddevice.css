@@ -124,10 +124,6 @@ CSS LARGE SCREEN
         text-align: justify;
     }
 
-    .section {
-        padding: 0 50px;
-    }
-    
     .section.R {
         display: flex;
         flex-direction: row;
