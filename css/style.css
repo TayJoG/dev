@@ -1,0 +1,209 @@
+/****************************************
+CSS LARGE SCREEN
+****************************************/
+
+
+@media only screen and (min-width: 992px) {
+
+body {
+    background: #F1F2F3;
+    font-family: Arial, Verdana, sans-serif, Impact;
+    font-size: 1em;
+    color: #404040;
+}
+
+
+/****************************************
+CSS COLOR TEXT
+****************************************/
+
+
+.bloc-fixe {
+    background: #FECA07;
+}
+
+.bloc-fixe h3 {
+    background: #404040;
+    color: #FECA07;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+h1 {
+    width: auto;
+    margin: 20px;
+    color: black;
+}
+
+h1 span {
+    color: #FECA07;
+}
+
+h4 , h5 {
+    width: auto;
+    height: auto;
+}
+
+h3 img {
+    width: 1.5em;
+    margin-right: 20px;
+}
+
+.bloc-content h3 {
+    color: black;
+    margin: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #FECA07;
+}
+
+main p {
+    margin: 20px;
+    text-align: justify;
+}
+p span{
+    border-bottom: 1px solid #FECA07;
+}
+
+p img {
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+ul li {
+    margin: 20px;
+    width: 100%;
+}
+ul li p {
+    margin: 0;
+}
+
+.photo img {
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+    border: 3px solid #DAAF12;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    width: 3em;
+    margin: 20px;
+}
+
+img {
+    width: 1em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    font-size: 1.5em;
+}
+
+.title h1 , .title p {
+    margin: 0;
+}
+
+.ap2m p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.section {
+    padding: 0 50px;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section.R {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section.R ul , .section.R li {
+    margin-top: 0;
+}
+.far.fa-dot-circle {
+    color: #FECA07;
+    font-size: 20px;
+}
+/****************************************
+CSS STRUCTURE PAGE
+****************************************/
+
+
+.bloc-page {
+    display: flex;
+    width: auto;
+    max-width: 1200px;
+	height: auto;
+    margin: auto;
+    border: 1px solid #404040;
+}
+
+.bloc-fixe , aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.photo {
+    width: auto;
+    height: auto;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+}
+
+.ap2m{
+    width: auto;
+    height:auto;
+}
+
+.loisir {
+    width: auto;
+    height: auto;
+}
+.bloc-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bloc-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+}
+
+}
