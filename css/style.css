@@ -43,6 +43,7 @@ h1 span {
 h4 , h5 {
     width: auto;
     height: auto;
+    margin-top: 0;
 }
 
 h3 img {
@@ -179,6 +180,7 @@ CSS STRUCTURE PAGE
 .ap2m{
     width: auto;
     height:auto;
+    min-height: 1250px;
 }
 
 .loisir {
@@ -189,6 +191,7 @@ CSS STRUCTURE PAGE
     display: flex;
     flex-direction: column;
     width: 100%;
+    justify-content: space-around;
 }
 
 .bloc-section {

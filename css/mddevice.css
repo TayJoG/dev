@@ -161,7 +161,7 @@ CSS LARGE SCREEN
     .ap2m{
         width: auto;
         height:auto;
-        min-height: 800px;
+        min-height: 1250px;
     }
     
     .loisir {
@@ -172,6 +172,7 @@ CSS LARGE SCREEN
         display: flex;
         flex-direction: column;
         width: 100%;
+        justify-content: space-around;
     }
     
     .bloc-section {
